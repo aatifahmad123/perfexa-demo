@@ -1,0 +1,21 @@
+/* Assuming you are using Tailwind CSS */
+.transition-transform {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .transform-enter {
+    transform: translateX(100%);
+  }
+  
+  .transform-enter-active {
+    transform: translateX(0);
+  }
+  
+  .transform-leave {
+    transform: translateX(0);
+  }
+  
+  .transform-leave-active {
+    transform: translateX(100%);
+  }
+  
